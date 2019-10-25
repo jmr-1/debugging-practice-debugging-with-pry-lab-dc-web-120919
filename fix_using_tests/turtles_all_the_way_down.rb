@@ -7,14 +7,12 @@ def turtles
       {name: "Leonardo", weapon: "katanas", traits: ["loves being a turtle"]}
     ]
 end
+#bug was party dude not encased in []
 
 def turtle_traits(turtles)
-  #new_array = []
   turtles.map do |turtle|
-    #new_array << turtle[:traits]
     turtle[:traits].each do |trait|
       trait
     end
   end
-  #return new_array 
 end
