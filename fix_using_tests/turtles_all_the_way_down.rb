@@ -9,10 +9,13 @@ def turtles
 end
 
 def turtle_traits(turtles)
+  new_array = []
   turtles.map do |turtle|
-    binding.pry 
+    
     turtle[:traits].each do |trait|
+      binding.pry 
       trait
     end
   end
+  return new_array 
 end
